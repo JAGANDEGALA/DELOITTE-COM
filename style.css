@@ -1,0 +1,150 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family:sans-serif ;
+    background-color:white;
+}
+header{
+    background-color:black;
+    color:white;
+    display:flex;
+    flex-direction:row ;
+
+} 
+ul {
+    display:flex;
+    flex-direction:row;
+    list-style-type: none;
+    justify-content:center;
+    position:relative;
+    bottom:10px;
+    justify-content: center;
+}
+li{
+    padding:20px;
+}
+li:hover{
+    color:rgb(134,188,37);
+}
+.fa-phone{
+    color:white;
+}
+.fa-magnifying-glass{
+    position:absolute;
+    text-align: right;
+    top:30px;
+    right:40px;
+}
+.fa-bars{
+    position:relative;
+    left:20px;
+    top:20px;
+}
+.head{
+    position:relative;
+    left:40px;
+    bottom:13px;
+}
+.block{
+    height:10px;
+    background-color:rgb(5, 62, 252);
+    margin:20px;
+}
+main{
+    background-color: whitesmoke;
+    padding: 20px;
+}
+.para{
+    background-color:rgb(227, 225, 225);
+    position:relative;
+    left:20px;
+    padding:20px;
+    height:300px;
+    width:500px;
+}
+a{
+    text-decoration: none;
+    color:rgb(9, 149, 249);
+}
+.pre{
+    position:relative;
+    left:20px;
+}
+button{
+    background-color: rgb(9, 149, 249);
+    padding-right:40px;
+    padding-left:40px;
+    color:white;
+    border:none;
+    text-align: center;
+    margin:20px;
+    justify-content: center;
+}
+.details{
+    background-color:black;
+    color:white;
+
+}
+h3{
+   position:relative;
+   left:20px; 
+   border:2px solid black;
+}
+hr{
+    background-color:black;
+}
+h3:hover{
+    color:rgb(134,188,37);
+}
+.global{
+    background-color:rgb(180, 179, 179);
+    margin:0px;
+}
+.para1{
+    position:relative;
+    left:10px;
+}
+.icons{
+ display:flex;
+ flex-direction:row;
+ padding:10px;
+
+}
+.icons i{
+    border-radius:50%;
+    background-color:grey;
+    padding:10px;
+    margin:10px;
+    color: white;
+}
+.fa-facebook-f:hover{
+    background-color: rgb(38, 104, 247);
+}
+.fa-linkedin-in:hover{
+    background-color:rgb(69, 175, 241);
+}
+.fa-x-twitter:hover{
+    background-color:black;
+}
+.fa-square-youtube:hover{
+    background-color:red;
+}
+.life{
+    position:relative;
+    left:20px;
+    background-color:rgb(245, 241, 237);
+    padding:30px;
+}
+footer{
+    padding:40px;
+    background-color: rgb(100, 100, 100);
+    color:white;
+    margin:20px;
+
+}
+@media(max-width:480px){
+.block{
+    display:flex;
+    flex-direction:row;
+}
+}
